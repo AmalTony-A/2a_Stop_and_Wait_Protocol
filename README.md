@@ -17,7 +17,7 @@ To write a python program to perform stop and wait protocol
 ## PROGRAM
 
 ### Server Code :
-```
+``` PY
 import socket
 s = socket.socket()
 s.bind(('localhost', 8000)) 
@@ -36,7 +36,7 @@ while True:
     break
 ```
 ### Client Code :
-```
+``` PY
 import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
